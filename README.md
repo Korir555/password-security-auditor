@@ -45,25 +45,25 @@ Built to demonstrate:
 
 ```
 password-security-auditor/
-├── backend/
-│   ├── app.py                 # Flask REST API (13 endpoints)
-│   ├── requirements.txt       # Dependencies
-│   └── models/
-│       ├── AuditReport        # Report metadata
-│       └── PasswordFinding    # Individual password findings
-├── frontend/
-│   ├── App.jsx               # Main React component
-│   ├── components/
-│   │   ├── SingleAnalyzer.jsx   # Single password UI
-│   │   ├── BulkAuditor.jsx      # CSV upload & analysis
-│   │   ├── ReportViewer.jsx     # Report details & visualization
-│   │   └── ComplianceGuide.jsx  # ODPC requirements guide
-│   ├── App.css               # Styling
-│   └── main.jsx              # React entry point
-└── docs/
-    ├── API.md                # REST API documentation
-    ├── SETUP.md              # Deployment guide
-    └── COMPLIANCE.md         # ODPC requirements
+ backend/
+    app.py                 # Flask REST API (13 endpoints)
+    requirements.txt       # Dependencies
+    models/
+        AuditReport        # Report metadata
+        PasswordFinding    # Individual password findings
+ frontend/
+    App.jsx               # Main React component
+    components/
+       SingleAnalyzer.jsx   # Single password UI
+       BulkAuditor.jsx      # CSV upload & analysis
+       ReportViewer.jsx     # Report details & visualization
+       ComplianceGuide.jsx  # ODPC requirements guide
+    App.css               # Styling
+    main.jsx              # React entry point
+ docs/
+     API.md                # REST API documentation
+     SETUP.md              # Deployment guide
+     COMPLIANCE.md         # ODPC requirements
 ```
 
 ## API Endpoints
@@ -197,11 +197,11 @@ docker-compose up --build
 ### ODPC Minimum Requirements
 
 Per Kenya Data Protection Act:
-- ✓ Minimum 8 characters (we recommend 12+)
-- ✓ Mixed character types (uppercase, lowercase, numbers, symbols)
-- ✓ No default/common passwords
-- ✓ Changed every 90 days (tracked in audit)
-- ✓ Hashed with strong algorithm (SHA-256)
+-  Minimum 8 characters (we recommend 12+)
+-  Mixed character types (uppercase, lowercase, numbers, symbols)
+-  No default/common passwords
+-  Changed every 90 days (tracked in audit)
+-  Hashed with strong algorithm (SHA-256)
 
 ## Use Cases
 
@@ -220,11 +220,11 @@ Per Kenya Data Protection Act:
 ## Compliance Features
 
 ### ODPC Reporting
-- ✅ Regulatory framework documentation
-- ✅ Compliance scoring (DPA-aligned)
-- ✅ Gap analysis and remediation
-- ✅ Executive summary for audit teams
-- ✅ Individual findings with severity
+-  Regulatory framework documentation
+-  Compliance scoring (DPA-aligned)
+-  Gap analysis and remediation
+-  Executive summary for audit teams
+-  Individual findings with severity
 
 ### Interview Value
 - Shows understanding of Kenya's regulatory environment
@@ -253,11 +253,11 @@ GRC-focused security tool demonstrating compliance tool development, password an
 
 ## Technical Skills Demonstrated
 
-- ✅ **Backend:** Flask REST API, SQLAlchemy ORM, password analysis algorithms
-- ✅ **Frontend:** React components, form handling, data visualization
-- ✅ **Security:** Entropy calculation, pattern detection, hash generation
-- ✅ **Compliance:** Regulatory requirements, audit reporting, policy alignment
-- ✅ **DevOps:** Environment setup, Docker, Git workflows
+-  **Backend:** Flask REST API, SQLAlchemy ORM, password analysis algorithms
+-  **Frontend:** React components, form handling, data visualization
+-  **Security:** Entropy calculation, pattern detection, hash generation
+-  **Compliance:** Regulatory requirements, audit reporting, policy alignment
+-  **DevOps:** Environment setup, Docker, Git workflows
 
 ## Next Steps / Extensions
 
